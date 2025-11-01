@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="3D Scanning On-Site: Capture Reality Now! Bring the power of precision 3D scanning directly to your project site with portable scanners and real-time data processing.">
+    <meta name="keywords" content="3D scanning, on-site scanning, precision scanning, data processing, portable scanners">
+    <meta name="author" content="3D Scanning Solutions">
+    <title>3D Scanning On-Site: Capture Reality Now! | Professional 3D Scanning Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-primary {
+            @apply px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:scale-105 cursor-pointer;
+        }
+        
+        .btn-secondary {
+            @apply px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 transition-all duration-300 hover:bg-blue-50 hover:shadow-lg hover:scale-105 cursor-pointer;
+        }
+        
+        .feature-card {
+            @apply bg-white rounded-xl p-8 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105 border border-gray-100;
+        }
+        
+        .testimonial-card {
+            @apply bg-white rounded-xl p-8 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100;
+        }
+        
+        .faq-item {
+            @apply border-b border-gray-200 py-6;
+        }
+        
+        .faq-question {
+            @apply flex items-center justify-between cursor-pointer py-4 px-4 -mx-4 rounded-lg hover:bg-gray-50 transition-all duration-300;
+        }
+        
+        .faq-icon {
+            @apply transition-transform duration-300;
+        }
+        
+        .faq-answer {
+            @apply px-4 py-4 text-gray-600 leading-relaxed;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-cube text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-gray-900">3D Scan Pro</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-700 font-medium transition-colors duration-300 hover:text-blue-600">Features</a>
+                <a href="#benefits" class="text-gray-700 font-medium transition-colors duration-300 hover:text-blue-600">Benefits</a>
+                <a href="#testimonials" class="text-gray-700 font-medium transition-colors duration-300 hover:text-blue-600">Testimonials</a>
+                <a href="#about" class="text-gray-700 font-medium transition-colors duration-300 hover:text-blue-600">About</a>
+                <a href="mailto:iainhmunro@gmail.com" class="btn-primary">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+                <i class="fas fa-bars text-gray-900 text-xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-700 font-medium py-2 transition-colors duration-300 hover:text-blue-600">Features</a>
+                    <a href="#benefits" class="text-gray-700 font-medium py-2 transition-colors duration-300 hover:text-blue-600">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 font-medium py-2 transition-colors duration-300 hover:text-blue-600">Testimonials</a>
+                    <a href="#about" class="text-gray-700 font-medium py-2 transition-colors duration-300 hover:text-blue-600">About</a>
+                    <a href="mailto:iainhmunro@gmail.com" class="btn-primary text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-24 sm:py-32 lg:py-40 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute top-40 right-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
+                    3D Scanning On-Site: <span class="gradient-text">Capture Reality Now!</span>
+                </h1>
+                
+                <p class="text-lg sm:text-xl text-gray-600 leading-relaxed mb-8 max-w-3xl mx-auto">
+                    Bring the power of precision 3D scanning directly to your project site. Our advanced on-site scanning solutions deliver accurate data, faster workflows, and dramatically reduced rework – all guaranteed to transform your project outcomes.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://example.com" class="btn-primary">
+                        <i class="fas fa-arrow-right mr-2"></i>Start Your Project Today
+                    </a>
+                    <a href="#features" class="btn-secondary">
+                        <i class="fas fa-play-circle mr-2"></i>Learn More
+                    </a>
+                </div>
+                
+                <div class="mt-12 pt-12 border-t border-gray-200">
+                    <p class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-6">Trusted by Industry Leaders</p>
+                    <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+                        <div class="text-gray-400 hover:text-gray-600 transition-colors duration-300">
+                            <i class="fas fa-building text-2xl"></i>
+                        </div>
+                        <div class="text-gray-400 hover:text-gray-600 transition-colors duration-300">
+                            <i class="fas fa-industry text-2xl"></i>
+                        </div>
+                        <div class="text-gray-400 hover:text-gray-600 transition-colors duration-300">
+                            <i class="fas fa-city text-2xl"></i>
+                        </div>
+                        <div class="text-gray-400 hover:text-gray-600 transition-colors duration-300">
+                            <i class="fas fa-hard-hat text-2xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 sm:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    Advanced Scanning Technology
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Our cutting-edge features are designed to give you the competitive advantage you need in today's fast-paced construction and surveying environment.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Portable Scanners</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Lightweight, ergonomic scanning equipment that's easy to transport and deploy across any job site. Our portable scanners weigh less than 5 kg yet deliver enterprise-grade precision and accuracy.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Ultra-compact design for maximum mobility</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Extended battery life up to 8 hours</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>One-person operation capability</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-bolt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Real-Time Data Processing</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Instantaneous processing and visualization of scanned data directly on-site. View results immediately, make decisions faster, and eliminate costly delays caused by waiting for post-processing.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Live point cloud visualization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Instant quality verification</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Immediate data export capabilities</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-50 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Ruggedized Equipment Options</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Built to withstand the harshest job site conditions. Our industrial-grade equipment features reinforced protection, advanced weatherproofing, and durability testing to ensure reliability in any environment.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>IP67 waterproof rating</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Extreme temperature operation (-10°C to 50°C)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1"></i>
+                            <span>Military-grade shock absorption</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 sm:py-32 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    Transform Your Project Outcomes
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Experience the measurable benefits that make 3D scanning an essential investment for modern projects.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-blue-600 shadow-lg">
+                            <i class="fas fa-tachometer-alt text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Accelerated Project Timelines</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Reduce project duration by up to 40% through faster data acquisition and elimination of manual measurement errors. Real-time scanning means you capture accurate information in a single pass, eliminating the need for time-consuming re-scans and corrections.
+                        </p>
+                        <div class="bg-white rounded-lg p-4 border-l-4 border-blue-600">
+                            <p class="text-sm text-gray-700"><strong>Average time savings:</strong> 2-3 weeks per project phase</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-green-600 shadow-lg">
+                            <i class="fas fa-chart-line text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Superior Accuracy & Precision</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Achieve millimeter-level accuracy with our advanced scanning technology. Our systems capture millions of data points per second, creating comprehensive 3D models that eliminate guesswork and provide the foundation for precise planning and execution.
+                        </p>
+                        <div class="bg-white rounded-lg p-4 border-l-4 border-green-600">
+                            <p class="text-sm text-gray-700"><strong>Accuracy level:</strong> ±5mm at 10 meters</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-purple-600 shadow-lg">
+                            <i class="fas fa-coins text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Dramatically Reduced Rework</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Eliminate costly mistakes and rework by capturing accurate baseline data from day one. With precise measurements and comprehensive documentation, discrepancies are identified and resolved before they become expensive problems.
+                        </p>
+                        <div class="bg-white rounded-lg p-4 border-l-4 border-purple-600">
+                            <p class="text-sm text-gray-700"><strong>Cost reduction:</strong> Up to 35% fewer rework incidents</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-14 w-14 rounded-lg bg-orange-600 shadow-lg">
+                            <i class="fas fa-users text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Enhanced Team Collaboration</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Share comprehensive 3D models with all stakeholders instantly. Architects, engineers, contractors, and clients work from the same accurate data, reducing miscommunication and ensuring everyone is aligned on project scope and specifications.
+                        </p>
+                        <div class="bg-white rounded-lg p-4 border-l-4 border-orange-600">
+                            <p class="text-sm text-gray-700"><strong>Communication improvement:</strong> 90% fewer coordination issues</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background Image -->
+    <section class="relative py-24 sm:py-32 bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&h=600&fit=crop');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                Ready to Revolutionize Your Project Workflow?
+            </h2>
+            <p class="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
+                Join hundreds of industry leaders who have already transformed their projects with precision 3D scanning technology. Get started today and experience the difference.
+            </p>
+            <a href="https://example.com" class="inline-block px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:scale-105 cursor-pointer">
+                <i class="fas fa-rocket mr-2"></i>Request a Demo Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 sm:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    What Our Clients Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Real results from real professionals who have transformed their projects with our 3D scanning solutions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "The 3D scanning solution has been a game-changer for our construction projects. We've cut our survey time in half and eliminated costly measurement errors. The real-time data processing means we can make decisions on-site instead of waiting days for reports. Highly recommended!"
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">Michael Chen</p>
+                        <p class="text-sm text-gray-600">Project Manager, BuildRight Construction</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "As a structural engineer, precision is everything. This scanning technology delivers accuracy that matches our most stringent requirements. The portable equipment is incredibly user-friendly, and our team was productive within hours of receiving it. The accuracy at ±5mm is exactly what we needed."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">Dr. Sarah Williams</p>
+                        <p class="text-sm text-gray-600">Structural Engineer, Precision Design Group</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "The ruggedized equipment has survived everything we've thrown at it – from dusty demolition sites to wet weather conditions. The durability combined with the accuracy has made it an indispensable tool for our facility assessments. We've reduced our rework incidents by over 30%."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">James Rodriguez</p>
+                        <p class="text-sm text-gray-600">Facilities Manager, Urban Development Corp</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        "Collaboration with our clients has never been easier. We can now show them accurate 3D models of their projects in real-time. This transparency has increased client satisfaction and reduced disputes. The investment paid for itself in the first two projects."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">Emma Thompson</p>
+                        <p class="text-sm text-gray-600">Director, Thompson Architectural Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 sm:py-32 bg-gradient-to-br from-blue-50 to-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-12 text-center">
+                    About 3D Scan Pro
+                </h2>
+                
+                <div class="space-y-8">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Founded in 2015 by a team of surveying professionals and software engineers, 3D Scan Pro emerged from a simple observation: the construction and surveying industries were still relying on outdated measurement techniques that were slow, error-prone, and expensive. Our founders recognized that the convergence of advanced scanning hardware, cloud computing, and real-time processing created an unprecedented opportunity to transform how projects are documented and managed. What started as a small startup with a single office has grown into a trusted partner for hundreds of organizations worldwide, serving everyone from individual contractors to Fortune 500 companies. Our journey has been driven by an unwavering commitment to innovation and customer success.
+                    </p>
+                    
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Today, 3D Scan Pro stands as the industry leader in on-site 3D scanning solutions, guided by core values of precision, reliability, and customer empowerment. We believe that accurate data is the foundation of successful projects, and we're committed to making professional-grade scanning technology accessible to organizations of all sizes. Our mission is to eliminate inefficiency, reduce costly errors, and enable teams to work smarter through the power of precise 3D data. Every product we develop, every service we deliver, and every partnership we build reflects our dedication to transforming the way the world captures, analyzes, and acts on spatial information. We don't just provide equipment – we provide the tools and support necessary for our clients to achieve their most ambitious project goals.
+                    </p>
+                </div>
+                
+                <div class="mt-12 pt-12 border-t border-gray-300 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">500+</div>
+                        <p class="text-gray-600">Active Clients Worldwide</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">2M+</div>
+                        <p class="text-gray-600">Projects Completed</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">99.8%</div>
+                        <p class="text-gray-600">Customer Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-24 sm:py-32 bg-gradient-to-r from-blue-600 to-blue-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+                Start Capturing Reality Today
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Experience the precision, speed, and reliability that's transforming projects worldwide. Let's discuss how 3D scanning can accelerate your next project.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://example.com" class="px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-lg hover:scale-105 cursor-pointer">
+                    <i class="fas fa-calendar mr-2"></i>Schedule a Demo
+                </a>
+                <a href="mailto:iainhmunro@gmail.com" class="px-8 py-4 bg-blue-500 text-white font-semibold rounded-lg border-2 border-white transition-all duration-300 hover:bg-blue-400 hover:shadow-lg hover:scale-105 cursor-pointer">
+                    <i class="fas fa-envelope mr-2"></i>Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-cube text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">3D Scan Pro</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Transforming the way professionals capture, analyze, and act on spatial data through advanced 3D scanning technology.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-linkedin text-gray-400 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-twitter text-gray-400 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-facebook text-gray-400 hover:text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-300">
+                            <i class="fab fa-instagram text-gray-400 hover:text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-6">Product</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Pricing</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Case Studies</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-6">Company</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Careers</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-6">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Data Processing</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+                    <p class="text-gray-400 text-sm">
+                        &copy; 2025 3D Scan Pro. All rights reserved. | Precision. Reliability. Innovation.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 text-sm text-gray-400 md:justify-end">
+                        <a href="privacy.html" class="hover:text-blue-400 transition-colors duration-300">Privacy</a>
+                        <span class="hidden sm:block">•</span>
+                        <a href="terms.html" class="hover:text-blue-400 transition-colors duration-300">Terms</a>
+                        <span class="hidden sm:block">•</span>
+                        <a href="blog.html" class="hover:text-blue-400 transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
